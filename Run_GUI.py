@@ -1,7 +1,7 @@
 """
 Created on Mon May 18 10:44:25 2020
 
-@author: Shubham
+@author: Shubham Patil
 """
 
 from tkinter import *
