@@ -1,0 +1,103 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day", "What's up?"],
+         "responses": ["Hello", "Hey !! Good to see you!!", "Hi there, how can I help?"],
+         "context": [""]
+        },
+	{"tag": "tag_1",
+         "patterns": [ "How are you"],
+         "responses": ["Fine... and you??"],
+         "context": [""]
+        },
+	{"tag": "tag_2",
+         "patterns": [ "Fine", "Me too", "I am very good"],
+         "responses": ["Ohh ! that's nice to hear", "Great!!"],
+         "context": [""]
+        },
+	{"tag": "tag_3",
+         "patterns": [ "Not feeling good", "not fine"],
+         "responses": ["Ohh ! that's sad...", "Thats ok... No one is really fine !!"],
+         "context": [""]
+        },
+	{"tag": "tag_4",
+         "patterns": [ "Who made you??", "Who is the owner", "Who is your owner", "Who do you love??"],
+         "responses": ["Shubham Patil", "I'm not really supposed to say his name...[Shubham] ;)"],
+         "context": [""]
+        },
+	{"tag": "tag_5",
+         "patterns": [ "ok", "ohh", "hmm", "okay"],
+         "responses": ["...", "hmmm"],
+         "context": [""]
+        },
+	{"tag": "tag_6",
+         "patterns": [ "That was a horrible experience", "you are not good bot", "not good", "bad robot"],
+         "responses": ["I don't care what you think", "Like I care :|"],
+         "context": [""]
+        },
+	{"tag": "tag_7",
+         "patterns": [ "Let's go", "Let's start", "let's proceed", "start"],
+         "responses": ["Let's go", "Always ready"],
+         "context": [""]
+        },
+	{"tag": "introduction",
+         "patterns": [ "Tell me something about yourself", "Introduce yourself", "sell yourself to me"],
+         "responses": ["\nTalk about - What is your name?\nHow old are you?\nHow long have you been working as [profession]?\nWhat do you love about your job?\nWhat are your top 2-3 achievements that are relevant to the job you’re applying for?"],
+         "context": [""]
+        },
+	{"tag": "strength",
+         "patterns": [ "What are your biggest strengths?", "what are your strengths"],
+         "responses": ["\nWhat your actual strengths are:\nAfter picking your strengths, back it up with a situation or story\nthat shows how you have used it to benefit you on the job."],
+         "context": [""]
+        },
+	{"tag": "weakness",
+         "patterns": [ "What is your biggest weakness??", "what are your weakness"],
+         "responses": ["\nMention a weakness that is real, but not something that would get in the way of you doing your job.\nIt’s also good practice to mention how you are working towards overcoming this weakness and realizing how it affects you negatively.\nIf you can, just balance it with a positive side effect: treat it like two sides of the same coin.", "Practice to mention some weaknesses that are actually benificial to the organization.\neg: It's hard to satisfy myself at my work and I lose track of time"],
+         "context": [""]
+        },
+	{"tag": "company",
+         "patterns": [ "What do you know about this company/ organization?", "What do you know about us?"],
+         "responses": ["\nWhat does their product or service do?\nWhat impact does the product / service have?\nWhat’s the company culture like?\nWhat are the latest news about the company? How are they performing?\nAnd pretty much whatever other type of info you can dig up."],
+         "context": [""]
+        },
+	{"tag": "hire",
+         "patterns": [ "Why should we hire you??", "What are your qualities"],
+         "responses": ["\nThink you are a good fit for the job? Say that “you have the right experience.\nDon't show over confidence.\nHow you’re super passionate about working for the company (and why).\nHow your skills fit their requirements.\nHow you’re going to help the company solve their existing problems. Improve a metric, setup a process, etc."],
+         "context": [""]
+        },
+	{"tag": "salary",
+         "patterns": [ "What are your salary requirements?", "How much salary you expect??"],
+         "responses": ["\nWhat is the average salary for someone of your skill-level?\nHow much does the company pay employees of your skill level?\nFinally, how much are you getting paid in your current company?"],
+         "context": [""]
+        },
+	{"tag": "questions",
+         "patterns": [ "Do you have any questions for us?"],
+         "responses": ["\nWhat does a regular day in this company look like?\nWhat is the best thing about working for the company?\nWhat’s the worst thing about working for the company?nWhat do you like best about working in this company?\netc."],
+         "context": [""]
+        },
+	{"tag": "future",
+         "patterns": [ "Where do you see yourself in five years?"],
+         "responses": ["\nThink realistically about what the next step after this position is, and whether it is possible to reach it within the company you are applying at."],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["\nI can guide you through 'personal interview questions'", "If you're having difficulty in answering the questions in the 'personal interview', I can help with that."],
+         "context": [""]
+        }
+   ]
+}
